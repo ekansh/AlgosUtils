@@ -4,11 +4,11 @@ import java.util.*;
 
 import matrix.utils.CreateIntMatrix;
 
-class Solution {
+class Sol {
 	public static void main(String[] args) {
 		int[][] grid = CreateIntMatrix
 				.constructMatrixFromIntArgs(new int[] { 4, 4, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1 });
-		Solution s = new Solution();
+		Sol s = new Sol();
 		int[] a1 = new int[] {1,3,3,7,7};
 		int[] b1 = new int[] { 0,1,2,2,4,4};
 		s.process(a1, b1, 9);

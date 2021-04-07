@@ -62,7 +62,6 @@ public class ReachToACelUsingDFS {
 		Stack<List<Integer>> stk = new Stack<>();
 		stk.push(Arrays.asList(start_row, start_col));
 		int len = 0;
-
 		while (!stk.isEmpty()) {
 			int breadth =stk.size();
 			for (int i = 0; i < breadth; i++) {
